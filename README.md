@@ -1,7 +1,7 @@
 # Welcome to My GitHub README 📚
 
 ## About Me
-I'm a passionate **Frontend Developer** 👨🏼‍🎨 currently diving into the world of **Backend Development**!  
+I'm a passionate **Non Coding Person** 👨🏼‍🎨 currently diving into the world of **WEB Development**!  
 Here’s a glimpse of what I’m working on:
 
 - **Frontend:** HTML, CSS, JavaScript, React
@@ -10,14 +10,14 @@ Here’s a glimpse of what I’m working on:
 ---
 
 ## Current Project 🎬🎵
-I'm currently building an application focused on **music and movies**.  
+I'm currently building a portfolio site and i have no idea what im doing but im excited to see what the future holds!  **GOD HAS A PLAN**.  
 ##### Hope you will like it. [^1]
 
-[^1]: Stack I'm using: React, TypeScript, Tailwind CSS  
+[^1]: Stack I'm using: IDk what this means yet, but im learning more everyday 
 
 ---
 
-# Skills & Tech Stack ⚙️
+# Skills & Tech Stack ⚙️ (copy patsed this - working on it)
 
 | Frontend                  | Backend          | Database         |
 | :------------------------- | :--------------: | ----------------: |
