@@ -10,20 +10,20 @@ Here’s a glimpse of what I’m working on:
 ---
 
 ## Current Project 🎬🎵
-Project is about **music & movies**.  
+I'm currently building an application focused on **music and movies**.  
 ##### Hope you will like it. [^1]
 
-[^1]: Stack is: React, TypeScript, Tailwind CSS  
+[^1]: Stack I'm using: React, TypeScript, Tailwind CSS  
 
 ---
 
 # Skills & Tech Stack ⚙️
 
-| Left Align (default) | Center Align | Right Align |
-| :------------------- | :----------: | ----------: |
-| React.js             | Node.js      | MySQL       |
-| Next.js              | Express      | MongoDB     |
-| Vue.js               | Nest.js      | Redis       |
+| Frontend                  | Backend          | Database         |
+| :------------------------- | :--------------: | ----------------: |
+| React.js                   | Node.js          | MySQL             |
+| Next.js                    | Express          | MongoDB           |
+| Vue.js                     | Nest.js          | Redis             |
 
 ---
 
@@ -73,32 +73,23 @@ What if I want to ~~strikethrough~~?
 
 ---
 
-# Images & Links
+# Images & Display
 
-![text if the image fails to load](auto-generated-path-to-file-when-you-upload-image "Text displayed on hover")  
+![If the image fails to load](auto-generated-path-to-file-when-you-upload-image "Hover Text Example")  
 
-[logo]: auto-generated-path-to-file-when-you-upload-image "Hover me"  
-![error text][logo]
-
-[markdown-cheatsheet]: https://github.com/im-luka/markdown-cheatsheet  
-[docs]: https://github.com/adam-p/markdown-here
-
-[My Markdown Cheatsheet - star it if you like it][markdown-cheatsheet]  
-Find some great docs [here][docs]
-
-[Like it so far? Follow me on GitHub](https://github.com/im-luka)
+<br />
 
 ---
 
 # Code Snippets 💻
 
-I created `.env` file at the root.  
+I created a `.env` file at the root of my project.  
 Backticks inside backticks? `` `No problem.` ``
 
 ```
 {
-  learning: "Markdown",
-  showing: "block code snippet"
+  "learning": "Markdown",
+  "showing": "block code snippet"
 }
 ```
 
@@ -107,7 +98,7 @@ const x = "Block code snippet in JS";
 console.log(x);
 ```
 
-Inline code? `console.log('Hello World');`
+Inline code looks like this: `console.log('Hello World');`
 
 ---
 
@@ -120,13 +111,13 @@ Inline code? `console.log('Hello World');`
 
 <img src="auto-generated-path-to-file-when-you-upload-image" width="200">
 
-<a href="https://github.com/im-luka">Follow me on GitHub</a>
+<p>Quick GitHub Profile Tip: Add a personal touch everywhere you can!</p>
 
 ---
 
 # Tricks & Hacks 🎭
 
-<p>Quick hack for <strong><em>centering image</em></strong>?</p>
+<p>Quick hack for <strong><em>centering an image</em></strong>:</p>
 
 <p align="center">
   <img src="auto-generated-path-to-file-when-you-upload-image" />
