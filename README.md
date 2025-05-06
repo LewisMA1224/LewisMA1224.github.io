@@ -13,19 +13,7 @@ Here’s a glimpse of what I’m working on:
 I'm currently building a portfolio site and i have no idea what im doing but im excited to see what the future holds!  **GOD HAS A PLAN**.  
 ##### Hope you will like it. [^1]
 
-[^1]: Stack I'm using: IDk what this means yet, but im learning more everyday 
 
----
-
-# Skills & Tech Stack ⚙️ (copy patsed this - working on it)
-
-| Frontend                  | Backend          | Database         |
-| :------------------------- | :--------------: | ----------------: |
-| React.js                   | Node.js          | MySQL             |
-| Next.js                    | Express          | MongoDB           |
-| Vue.js                     | Nest.js          | Redis             |
-
----
 
 # Learning Path 🛤️
 
