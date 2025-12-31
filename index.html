@@ -1,11 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mark Lewis Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mainn.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mark Lewis | IT Support + Python Automation</title>
+
+  <!-- ONE stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Fonts (optional) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
@@ -15,139 +18,142 @@
   <header class="top">
     <nav class="links">
       <ul>
-        <li><a href="#early-life">Early Life</a></li>
-        <li><a href="#mascot">Mascot</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#weight-loss">Weight Loss</a></li>
-        <li><a href="#it">IT</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#now">Now</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <h1>Mark Lewis Portfolio Page</h1>
-
-
-<!-- Keep this as-is -->
-<audio id="fartSound" src="fart.mp3" preload="auto"></audio>
   </header>
 
   <main class="container">
-  <section id="home" class="card">
-    <h1>Mark Lewis</h1>
-    <p>IT Support / Automation-minded analyst building practical Python tools for troubleshooting, reporting, and repeatable workflows.</p>
-    <p><strong>Target:</strong> IT Support + Scripting • QA/Tester • Junior Automation</p>
-    <p>
-      <a href="https://github.com/LewisMA1224" target="_blank" rel="noopener">GitHub</a> |
-      <a href="#contact">Contact</a>
-    </p>
-  </section>
-
-  <section id="projects" class="card">
-    <h2>Projects</h2>
-
-    <div class="project">
-      <h3>IT Ops Automation Pack (Python)</h3>
-      <p>3 scripts that solve real IT tasks: log cleanup, disk reporting, and CSV auditing. Includes README, examples, and screenshots.</p>
-      <p>
-        <a href="https://github.com/LewisMA1224/it-ops-automation-pack" target="_blank" rel="noopener">Repo</a>
+    <!-- HERO -->
+    <section id="home" class="card">
+      <h1>Mark Lewis</h1>
+      <p class="subtitle">
+        IT Support / Automation-minded analyst building practical Python tools for troubleshooting, reporting, and repeatable workflows.
       </p>
-    </div>
 
-    <div class="project">
-      <h3>Portfolio Website</h3>
-      <p>Simple GitHub Pages site highlighting projects, skills, and experience.</p>
-      <p>
-        <a href="https://lewisma1224.github.io/" target="_blank" rel="noopener">Live Site</a> |
-        <a href="https://github.com/LewisMA1224/LewisMA1224.github.io" target="_blank" rel="noopener">Repo</a>
-      </p>
-    </div>
-  </section>
+      <p><strong>Target:</strong> IT Support + Scripting • QA/Tester • Junior Automation</p>
 
-  <section id="skills" class="card">
-    <h2>Skills</h2>
-    <ul>
-      <li>Python (file I/O, parsing, automation scripts)</li>
-      <li>Basic SQL (reporting mindset)</li>
-      <li>Troubleshooting, documentation, customer support</li>
-      <li>ServiceNow exposure (ticket workflows, ITSM concepts)</li>
-    </ul>
-  </section>
-
-  <section id="experience" class="card">
-    <h2>Experience</h2>
-    <h3>RBC Bank — Technical Systems Analyst</h3>
-    <ul>
-      <li>Incident troubleshooting, documentation, and operational support</li>
-      <li>Worked across applications/teams; improved reliability and communication</li>
-      <li>Awards: 2024 Q1 Leadership Award, 2024 Make A Difference Award</li>
-    </ul>
-  </section>
-
-  <section id="contact" class="card">
-    <h2>Contact</h2>
-    <p>Best way to reach me: <strong>[put email here]</strong></p>
-  </section>
-</main>
-
-
-  <footer>
-    <p>I had to Google 90% of this — Does that make me a bad developer?</p>
-    <p>Second-guessing yourself is part of the process. Keep pushing!</p>
-
-
-
-
-
-<section id="projects" class="b">
-  <h2>Featured Project</h2>
-  <div class="project-card">
-    <img src="project_screenshot.jpg.png" alt="Screenshot of My Project" class="project-img">
-    <div class="project-details">
-      <h3>My Personal Portfolio</h3>
-      <p> This site isn’t just a portfolio — it’s a reflection of how far I’ve come. I built it using 
-  <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. It features dynamic API integrations and represents my <strong>personal transformation</strong>.
-</p>
-      <div class="project-links">
-        <a href="https://github.com/LewisMA1224/LewisMA1224.github.io" target="_blank" class="cta">GitHub Repo</a>
-        <a href="https://lewisma1224.github.io/" target="_blank" class="cta">Live Site</a>
+      <div class="cta-row">
+        <a class="btn" href="https://github.com/LewisMA1224" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-secondary" href="#contact">Contact</a>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
+    <!-- PROJECTS -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
 
+      <article class="project">
+        <div class="project-header">
+          <h3>IT Ops Automation Pack (Python)</h3>
+          <span class="pill">Python • CLI • File I/O</span>
+        </div>
 
+        <p>
+          3 scripts that solve real IT tasks: log cleanup, disk reporting, and CSV auditing.
+          Includes README, examples, and screenshots.
+        </p>
 
-<section id="contact" class="contact-form-section">
-  <div class="contact-card">
-    <h2>📬 Let's Connect</h2>
-    <p>If you’re interested in collaborating, hiring, or just want to say hey — I’d love to hear from you!</p>
+        <p>
+          <a href="https://github.com/LewisMA1224/it-ops-automation-pack" target="_blank" rel="noopener">Repo</a>
+        </p>
+      </article>
 
-    <form action="https://formspree.io/f/xyzwwpvr" method="POST">
-      <label for="name">Name</label>
-      <input type="text" name="name" placeholder="Your name..." required>
+      <article class="project">
+        <div class="project-header">
+          <h3>Portfolio Website</h3>
+          <span class="pill">HTML • CSS • JavaScript</span>
+        </div>
 
-      <label for="email">Email</label>
-      <input type="email" name="_replyto" placeholder="Your email..." required>
+        <p>Simple GitHub Pages site highlighting projects, skills, and experience.</p>
 
-      <label for="message">Message</label>
-      <textarea name="message" placeholder="Type your message here..." rows="5" required></textarea>
+        <p>
+          <a href="https://lewisma1224.github.io/" target="_blank" rel="noopener">Live Site</a> |
+          <a href="https://github.com/LewisMA1224/LewisMA1224.github.io" target="_blank" rel="noopener">Repo</a>
+        </p>
+      </article>
 
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-</section>
+      <!-- Optional screenshot -->
+      <!--
+      <figure class="figure">
+        <img src="assets/images/project_screenshot.png" alt="Portfolio screenshot" />
+        <figcaption>Portfolio site preview.</figcaption>
+      </figure>
+      -->
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Python:</strong> automation scripts, CLI tools, file I/O, data parsing</li>
+        <li><strong>Tooling:</strong> Git/GitHub, VS Code, documentation & troubleshooting</li>
+        <li><strong>IT Concepts:</strong> incident support, ticket workflows, operational support</li>
+        <li><strong>ServiceNow:</strong> exposure to ITSM concepts & ticket workflows</li>
+      </ul>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+      <h3>RBC Bank — Technical Systems Analyst</h3>
+      <ul>
+        <li>Incident troubleshooting, documentation, and operational support</li>
+        <li>Worked across applications/teams; improved reliability and communication</li>
+        <li>Awards: 2024 Q1 Leadership Award, 2024 Make A Difference Award</li>
+      </ul>
+    </section>
+
+    <!-- WHAT I'M BUILDING NOW -->
+    <section id="now" class="card">
+      <h2>What I’m Building Now</h2>
+      <p>
+        Currently focused on Python automation, data processing, and tooling that improves real workflows.
+        Expanding my automation pack and building small utilities that support IT and application support teams.
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <strong>youremail@example.com</strong></p>
+
+      <!-- Optional: Formspree form (keep if you want) -->
+      <form class="contact-form" action="https://formspree.io/f/xyzwwpvr" method="POST">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name..." required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="_replyto" placeholder="Your email..." required />
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" placeholder="Type your message here..." rows="5" required></textarea>
+        </label>
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Mark Lewis</p>
   </footer>
 
-
-
-
-
-
-<script src="mainn.js"></script>
-
-
-
+  <script src="js/main.js"></script>
 </body>
 </html>
+
+
 
 
 
