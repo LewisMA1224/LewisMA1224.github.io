@@ -146,7 +146,7 @@ h3{ font-size: 1.15rem; margin-bottom: 0.25rem; }
 }
 
 .figure img {
-  max-width: 85%;      /* controls size */
+  max-width: 70%;      /* controls size */
   height: auto;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
