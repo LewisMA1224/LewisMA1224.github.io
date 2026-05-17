@@ -146,10 +146,12 @@ h3{ font-size: 1.15rem; margin-bottom: 0.25rem; }
 }
 
 .figure img {
-  max-width: 60%;      /* controls size */
-  height: auto;
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  max-width: 520px;
+  max-height: 340px;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
 .figure figcaption {
